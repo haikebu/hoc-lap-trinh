@@ -18,5 +18,24 @@ function tinhtoan() {
     let d2 = document.getElementById("birthday").value[9];
     d2 = Number(d2);
     let tong = y1 + y2 + y3 + y4 + m1 + m2 + d1 + d2; 
-    alert(tong);
-}
+    if (tong<=11)  {
+        let cscd = tong;
+        alert(cscd);
+    }
+    else if (tong==22) {
+        let cscd = tong;
+        alert (cscd);
+    }
+    else {
+        let t1 = tong%10;
+        let t2 = (tong - (tong%10))/10;
+        let cscd = t1 + t2;
+        if (cscd>11){
+            let t1 = cscd%10;
+            let t2 = (cscd - (cscd%10))/10;
+            cscd = t1 + t2;
+            alert(cscd);
+        }
+        alert(cscd)
+    };
+ }
