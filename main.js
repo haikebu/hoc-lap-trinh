@@ -1,4 +1,5 @@
-function tinhtoan() {
+function tinhtoan() 
+{
     let ten = document.getElementById("ten").value;
     let birthday = document.getElementById("birthday").value;
     let y1 = document.getElementById("birthday").value[0];
@@ -18,24 +19,24 @@ function tinhtoan() {
     let d2 = document.getElementById("birthday").value[9];
     d2 = Number(d2);
     let tong = y1 + y2 + y3 + y4 + m1 + m2 + d1 + d2; 
-    if (tong<=11)  {
+    if ((tong<=11) || (tong==22))  
+    {
         let cscd = tong;
-        alert(cscd);
+        document.getElementById("consochudao").innerHTML = ('Con số chủ đạo của bạn là: ' + cscd);
     }
-    else if (tong==22) {
-        let cscd = tong;
-        alert (cscd);
-    }
-    else {
+    else 
+    {
         let t1 = tong%10;
         let t2 = (tong - (tong%10))/10;
         let cscd = t1 + t2;
-        if (cscd>11){
+        if (cscd>11)
+        {
             let t1 = cscd%10;
             let t2 = (cscd - (cscd%10))/10;
             cscd = t1 + t2;
-            alert(cscd);
+            document.getElementById("consochudao").innerHTML = ('Con số chủ đạo của bạn là: ' + cscd);
         }
-        alert(cscd)
+        document.getElementById("consochudao").innerHTML = ('Con số chủ đạo của bạn là: ' + cscd);
     };
- }
+    let consotrongngaysinh =[y1,y2,y3,y4,m1,m2,d1,d2];
+    }
