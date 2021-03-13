@@ -283,7 +283,13 @@ if (soso9==6)
 {
     document.getElementById("conso9").innerHTML = ('999999')
 }
+let chuso1 = ["a","j","s"]
+let mangso1 = [];
+for (let i = 0; i < ten.length; i++) {
+    let chucai1 = ten[i];
+    if ((chucai1 == "a")||(chucai1 == "j")||(chucai1 == "s")){mangso1.push("1")
+    document.getElementById("conso1").innerHTML = (mangso1)}
+}
 
-    //console.log(soso1);
 
     }
