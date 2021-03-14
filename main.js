@@ -283,25 +283,67 @@ if (soso9==6)
 {
     document.getElementById("conso9").innerHTML = ('999999')
 }
-let chuso1 = ["a","j","s"]
 let mangso1 = [];
 for (let i = 0; i < ten.length; i++) {
     let chucai1 = ten[i];
+    chucai1 = chucai1.toLowerCase()
     if ((chucai1 == "a")||(chucai1 == "j")||(chucai1 == "s")){mangso1.push("1")
     document.getElementById("ten1").innerHTML = (mangso1)}
 }
-let chuso2 = ["b","k","t"]
 let mangso2 = [];
 for (let i = 0; i < ten.length; i++) {
     let chucai2 = ten[i];
+    chucai2 = chucai2.toLowerCase()
     if ((chucai2 == "b")||(chucai2 == "k")||(chucai2 == "t")){mangso2.push("2")
     document.getElementById("ten2").innerHTML = (mangso2)}  
 }
-let chuso3 = ["b","k","t"]
 let mangso3 = [];
 for (let i = 0; i < ten.length; i++) {
     let chucai3 = ten[i];
-    if ((chucai3 == "b")||(chucai3 == "k")||(chucai3 == "t")){mangso3.push("3")
+    chucai3 = chucai3.toLowerCase()
+    if ((chucai3 == "c")||(chucai3 == "l")||(chucai3 == "u")){mangso3.push("3")
     document.getElementById("ten3").innerHTML = (mangso3)}  
+}
+let mangso4 = [];
+for (let i = 0; i < ten.length; i++) {
+    let chucai4 = ten[i];
+    chucai4 = chucai4.toLowerCase()
+    if ((chucai4 == "d")||(chucai4 == "m")||(chucai4 == "v")){mangso4.push("4")
+    document.getElementById("ten4").innerHTML = (mangso4)}  
+}
+let mangso5 = [];
+for (let i = 0; i < ten.length; i++) {
+    let chucai5 = ten[i];
+    chucai5 = chucai5.toLowerCase()
+    if ((chucai5 == "e")||(chucai5 == "n")||(chucai5 == "w")){mangso5.push("5")
+    document.getElementById("ten5").innerHTML = (mangso5)}  
+}
+let mangso6 = [];
+for (let i = 0; i < ten.length; i++) {
+    let chucai6 = ten[i];
+    chucai6 = chucai6.toLowerCase()
+    if ((chucai6 == "f")||(chucai6 == "o")||(chucai6 == "x")){mangso6.push("5")
+    document.getElementById("ten5").innerHTML = (mangso6)}  
+}
+let mangso7 = [];
+for (let i = 0; i < ten.length; i++) {
+    let chucai7 = ten[i];
+    chucai7 = chucai7.toLowerCase()
+    if ((chucai7 == "g")||(chucai7 == "p")||(chucai7 == "y")){mangso7.push("7")
+    document.getElementById("ten7").innerHTML = (mangso7)}  
+}
+let mangso8 = [];
+for (let i = 0; i < ten.length; i++) {
+    let chucai8 = ten[i];
+    chucai8 = chucai8.toLowerCase()
+    if ((chucai8 == "h")||(chucai8 == "q")||(chucai8 == "z")){mangso8.push("8")
+    document.getElementById("ten8").innerHTML = (mangso8)}  
+}
+let mangso9 = [];
+for (let i = 0; i < ten.length; i++) {
+    let chucai9 = ten[i];
+    chucai9 = chucai9.toLowerCase()
+    if ((chucai9 == "i")||(chucai9 == "r")){mangso9.push("9")
+    document.getElementById("ten9").innerHTML = (mangso9)}  
 }
 }
