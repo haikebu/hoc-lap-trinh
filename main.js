@@ -1,6 +1,8 @@
 function tinhtoan() 
 {
     let ten = document.getElementById("ten").value;
+    console.log(ten)
+    document.getElementById("bieudo") = ten
     let birthday = document.getElementById("birthday").value;
     let y1 = Number(document.getElementById("birthday").value[0]);
     let y2 = Number(document.getElementById("birthday").value[1]);
