@@ -288,8 +288,20 @@ let mangso1 = [];
 for (let i = 0; i < ten.length; i++) {
     let chucai1 = ten[i];
     if ((chucai1 == "a")||(chucai1 == "j")||(chucai1 == "s")){mangso1.push("1")
-    document.getElementById("conso1").innerHTML = (mangso1)}
+    document.getElementById("ten1").innerHTML = (mangso1)}
 }
-
-
-    }
+let chuso2 = ["b","k","t"]
+let mangso2 = [];
+for (let i = 0; i < ten.length; i++) {
+    let chucai2 = ten[i];
+    if ((chucai2 == "b")||(chucai2 == "k")||(chucai2 == "t")){mangso2.push("2")
+    document.getElementById("ten2").innerHTML = (mangso2)}  
+}
+let chuso3 = ["b","k","t"]
+let mangso3 = [];
+for (let i = 0; i < ten.length; i++) {
+    let chucai3 = ten[i];
+    if ((chucai3 == "b")||(chucai3 == "k")||(chucai3 == "t")){mangso3.push("3")
+    document.getElementById("ten3").innerHTML = (mangso3)}  
+}
+}
