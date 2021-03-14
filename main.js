@@ -386,3 +386,14 @@ for (let i = 0; i < ten.length; i++) {
     document.getElementById("ten9").innerHTML = (mangso9)}  
 }
 }
+function reset(){
+    document.getElementById("ten1").innerHTML = (" ")
+    document.getElementById("ten2").innerHTML = (" ")
+    document.getElementById("ten3").innerHTML = (" ")
+    document.getElementById("ten4").innerHTML = (" ")
+    document.getElementById("ten5").innerHTML = (" ")
+    document.getElementById("ten6").innerHTML = (" ")
+    document.getElementById("ten7").innerHTML = (" ")
+    document.getElementById("ten8").innerHTML = (" ")
+    document.getElementById("ten9").innerHTML = (" ")
+}
