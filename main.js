@@ -39,37 +39,47 @@ for(let i = 0; i < consotrongngaysinh.length; ++i)
 }
 if (soso1==1) 
 {
-    document.getElementById("conso1").innerText = ('1').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso1").innerHTML = ('1').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso11").innerHTML = ('1').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso1==2) 
 {
     document.getElementById("conso1").innerHTML = ('11').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso11").innerHTML = ('11').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso1==3) 
 {
     document.getElementById("conso1").innerHTML = ('111').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso11").innerHTML = ('111').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso1==4) 
 {
     document.getElementById("conso1").innerHTML = ('1111').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso11").innerHTML = ('1111').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso1==5) 
 {
     document.getElementById("conso1").innerHTML = ('11111').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso11").innerHTML = ('11111').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso1==6) 
 {
     document.getElementById("conso1").innerHTML = ('111111').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso11").innerHTML = ('111111').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso1==7) 
 {
     document.getElementById("conso1").innerHTML = ('1111111').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso11").innerHTML = ('1111111').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso1==8) 
 {
     document.getElementById("conso1").innerHTML = ('11111111').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso11").innerHTML = ('11111111').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-1-trong-bieu-o-ngay-sinh.html")
 }
-else document.getElementById("conso1").innerHTML = (' ')
+else {document.getElementById("conso1").innerHTML = (' ')
+document.getElementById("conso11").innerHTML = (' ')
+}
 let soso2 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -79,32 +89,41 @@ for(let i = 0; i < consotrongngaysinh.length; ++i)
 if (soso2==1) 
 {
     document.getElementById("conso2").innerHTML = ('2').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-2-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso22").innerHTML = ('2').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-2-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso2==2) 
 {
     document.getElementById("conso2").innerHTML = ('22').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-2-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso22").innerHTML = ('22').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-2-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso2==3) 
 {
     document.getElementById("conso2").innerHTML = ('222').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-2-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso22").innerHTML = ('222').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-2-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso2==4) 
 {
     document.getElementById("conso2").innerHTML = ('2222').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-2-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso22").innerHTML = ('2222').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-2-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso2==5) 
 {
     document.getElementById("conso2").innerHTML = ('22222').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-2-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso22").innerHTML = ('22222').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-2-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso2==6) 
 {
     document.getElementById("conso2").innerHTML = ('222222').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-2-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso22").innerHTML = ('222222').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-2-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso2==7) 
 {
     document.getElementById("conso2").innerHTML = ('2222222').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-2-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso22").innerHTML = ('2222222').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-2-trong-bieu-o-ngay-sinh.html")
 }
-else document.getElementById("conso2").innerHTML = (' ')
+else {document.getElementById("conso2").innerHTML = (' ')
+document.getElementById("conso22").innerHTML = (' ')
+}
 let soso3 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -114,28 +133,36 @@ for(let i = 0; i < consotrongngaysinh.length; ++i)
 if (soso3==1) 
 {
     document.getElementById("conso3").innerHTML = ('3').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-3-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso33").innerHTML = ('3').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-3-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso3==2) 
 {
     document.getElementById("conso3").innerHTML = ('33').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-3-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso33").innerHTML = ('33').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-3-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso3==3) 
 {
     document.getElementById("conso3").innerHTML = ('333').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-3-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso33").innerHTML = ('333').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-3-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso3==4) 
 {
     document.getElementById("conso3").innerHTML = ('3333').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-3-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso33").innerHTML = ('3333').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-3-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso3==5) 
 {
     document.getElementById("conso3").innerHTML = ('33333').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-3-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso33").innerHTML = ('33333').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-3-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso3==6) 
 {
     document.getElementById("conso3").innerHTML = ('333333').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-3-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso33").innerHTML = ('333333').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-3-trong-bieu-o-ngay-sinh.html")
 }
-else document.getElementById("conso3").innerHTML = (' ')
+else {document.getElementById("conso3").innerHTML = (' ')
+document.getElementById("conso33").innerHTML = (' ')
+}
 let soso4 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -145,28 +172,36 @@ for(let i = 0; i < consotrongngaysinh.length; ++i)
 if (soso4==1) 
 {
     document.getElementById("conso4").innerHTML = ('4').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-4-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso44").innerHTML = ('4').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-4-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso4==2) 
 {
     document.getElementById("conso4").innerHTML = ('44').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-4-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso44").innerHTML = ('44').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-4-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso4==4) 
 {
     document.getElementById("conso4").innerHTML = ('444').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-4-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso44").innerHTML = ('444').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-4-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso4==4) 
 {
     document.getElementById("conso4").innerHTML = ('4444').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-4-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso44").innerHTML = ('4444').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-4-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso4==5) 
 {
     document.getElementById("conso4").innerHTML = ('44444').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-4-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso44").innerHTML = ('44444').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-4-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso4==6) 
 {
     document.getElementById("conso4").innerHTML = ('444444').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-4-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso44").innerHTML = ('444444').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-4-trong-bieu-o-ngay-sinh.html")
 }
-else document.getElementById("conso4").innerHTML = (' ')
+else {document.getElementById("conso4").innerHTML = (' ')
+document.getElementById("conso44").innerHTML = (' ')
+}
 let soso5 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -176,28 +211,36 @@ for(let i = 0; i < consotrongngaysinh.length; ++i)
 if (soso5==1) 
 {
     document.getElementById("conso5").innerHTML = ('5').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-5-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso55").innerHTML = ('5').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-5-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso5==2) 
 {
     document.getElementById("conso5").innerHTML = ('55').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-5-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso55").innerHTML = ('55').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-5-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso5==5) 
 {
     document.getElementById("conso5").innerHTML = ('555').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-5-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso55").innerHTML = ('555').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-5-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso5==5) 
 {
     document.getElementById("conso5").innerHTML = ('5555').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-5-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso55").innerHTML = ('5555').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-5-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso5==5) 
 {
     document.getElementById("conso5").innerHTML = ('55555').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-5-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso55").innerHTML = ('55555').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-5-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso5==6) 
 {
     document.getElementById("conso5").innerHTML = ('555555').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-5-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso55").innerHTML = ('555555').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-5-trong-bieu-o-ngay-sinh.html")
 }
-else document.getElementById("conso5").innerHTML = (' ')
+else {document.getElementById("conso5").innerHTML = (' ')
+document.getElementById("conso55").innerHTML = (' ')
+}
 let soso6 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -207,28 +250,36 @@ for(let i = 0; i < consotrongngaysinh.length; ++i)
 if (soso6==1) 
 {
     document.getElementById("conso6").innerHTML = ('6').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-6-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso66").innerHTML = ('6').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-6-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso6==2) 
 {
     document.getElementById("conso6").innerHTML = ('66').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-6-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso66").innerHTML = ('66').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-6-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso6==6) 
 {
     document.getElementById("conso6").innerHTML = ('666').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-6-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso66").innerHTML = ('666').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-6-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso6==6) 
 {
     document.getElementById("conso6").innerHTML = ('6666').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-6-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso66").innerHTML = ('6666').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-6-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso6==6) 
 {
     document.getElementById("conso6").innerHTML = ('66666').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-6-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso66").innerHTML = ('66666').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-6-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso6==6) 
 {
     document.getElementById("conso6").innerHTML = ('666666').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-6-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso66").innerHTML = ('666666').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-6-trong-bieu-o-ngay-sinh.html")
 }
-else document.getElementById("conso6").innerHTML = (' ')
+else {document.getElementById("conso6").innerHTML = (' ')
+document.getElementById("conso66").innerHTML = (' ')
+}
 let soso7 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -238,28 +289,36 @@ for(let i = 0; i < consotrongngaysinh.length; ++i)
 if (soso7==1) 
 {
     document.getElementById("conso7").innerHTML = ('7').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-7-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso77").innerHTML = ('7').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-7-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso7==2) 
 {
     document.getElementById("conso7").innerHTML = ('77').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-7-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso77").innerHTML = ('77').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-7-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso7==7) 
 {
     document.getElementById("conso7").innerHTML = ('777').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-7-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso77").innerHTML = ('777').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-7-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso7==7) 
 {
     document.getElementById("conso7").innerHTML = ('7777').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-7-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso77").innerHTML = ('7777').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-7-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso7==7) 
 {
     document.getElementById("conso7").innerHTML = ('77777').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-7-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso77").innerHTML = ('77777').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-7-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso7==7) 
 {
     document.getElementById("conso7").innerHTML = ('777777').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-7-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso77").innerHTML = ('777777').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-7-trong-bieu-o-ngay-sinh.html")
 }
-else document.getElementById("conso7").innerHTML = (' ')
+else {document.getElementById("conso7").innerHTML = (' ')
+document.getElementById("conso77").innerHTML = (' ')
+}
 let soso8 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -269,28 +328,36 @@ for(let i = 0; i < consotrongngaysinh.length; ++i)
 if (soso8==1) 
 {
     document.getElementById("conso8").innerHTML = ('8').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-8-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso88").innerHTML = ('8').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-8-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso8==2) 
 {
     document.getElementById("conso8").innerHTML = ('88').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-8-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso88").innerHTML = ('88').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-8-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso8==8) 
 {
     document.getElementById("conso8").innerHTML = ('888').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-8-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso88").innerHTML = ('888').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-8-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso8==8) 
 {
     document.getElementById("conso8").innerHTML = ('8888').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-8-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso88").innerHTML = ('8888').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-8-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso8==8) 
 {
     document.getElementById("conso8").innerHTML = ('88888').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-8-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso88").innerHTML = ('88888').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-8-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso8==8) 
 {
     document.getElementById("conso8").innerHTML = ('888888').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-8-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso88").innerHTML = ('888888').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-8-trong-bieu-o-ngay-sinh.html")
 }
-else document.getElementById("conso8").innerHTML = (' ')
+else {document.getElementById("conso8").innerHTML = (' ')
+document.getElementById("conso88").innerHTML = (' ')
+}
 let soso9 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -300,28 +367,36 @@ for(let i = 0; i < consotrongngaysinh.length; ++i)
 if (soso9==1) 
 {
     document.getElementById("conso9").innerHTML = ('9').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-9-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso99").innerHTML = ('9').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-9-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso9==2) 
 {
     document.getElementById("conso9").innerHTML = ('99').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-9-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso99").innerHTML = ('99').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-9-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso9==9) 
 {
     document.getElementById("conso9").innerHTML = ('999').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-9-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso99").innerHTML = ('999').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-9-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso9==9) 
 {
     document.getElementById("conso9").innerHTML = ('9999').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-9-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso99").innerHTML = ('9999').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-9-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso9==9) 
 {
     document.getElementById("conso9").innerHTML = ('99999').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-9-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso99").innerHTML = ('99999').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-9-trong-bieu-o-ngay-sinh.html")
 }
 else if (soso9==9) 
 {
     document.getElementById("conso9").innerHTML = ('999999').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-9-trong-bieu-o-ngay-sinh.html")
+    document.getElementById("conso99").innerHTML = ('999999').link("https://thansohoc-haikebu.blogspot.com/2021/01/so-9-trong-bieu-o-ngay-sinh.html")
 }
-else document.getElementById("conso9").innerHTML = (' ')
+else {document.getElementById("conso9").innerHTML = (' ')
+document.getElementById("conso99").innerHTML = (' ')
+}
 let mangso1 = [];
 for (let i = 0; i < ten.length; i++) {
     let chucai1 = ten[i];
