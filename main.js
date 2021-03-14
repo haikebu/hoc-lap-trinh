@@ -31,7 +31,7 @@ function tinhtoan()
         document.getElementById("consochudao").innerHTML = ('Con số chủ đạo của bạn là: ' + cscd);
     };
     let consotrongngaysinh =[y1,y2,y3,y4,m1,m2,d1,d2];
-    let soso1 = 0;
+        let soso1 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
     if(consotrongngaysinh[i] == 1)
@@ -41,34 +41,35 @@ if (soso1==1)
 {
     document.getElementById("conso1").innerHTML = ('1 ')
 }
-if (soso1==2) 
+else if (soso1==2) 
 {
     document.getElementById("conso1").innerHTML = ('11')
 }
-if (soso1==3) 
+else if (soso1==3) 
 {
     document.getElementById("conso1").innerHTML = ('111')
 }
-if (soso1==4) 
+else if (soso1==4) 
 {
     document.getElementById("conso1").innerHTML = ('1111')
 }
-if (soso1==5) 
+else if (soso1==5) 
 {
     document.getElementById("conso1").innerHTML = ('11111')
 }
-if (soso1==6) 
+else if (soso1==6) 
 {
     document.getElementById("conso1").innerHTML = ('111111')
 }
-if (soso1==7) 
+else if (soso1==7) 
 {
     document.getElementById("conso1").innerHTML = ('1111111')
 }
-if (soso1==8) 
+else if (soso1==8) 
 {
     document.getElementById("conso1").innerHTML = ('11111111')
 }
+else document.getElementById("conso1").innerHTML = (' ')
 let soso2 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -79,30 +80,31 @@ if (soso2==1)
 {
     document.getElementById("conso2").innerHTML = ('2')
 }
-if (soso2==2) 
+else if (soso2==2) 
 {
     document.getElementById("conso2").innerHTML = ('22')
 }
-if (soso2==3) 
+else if (soso2==3) 
 {
     document.getElementById("conso2").innerHTML = ('222')
 }
-if (soso2==4) 
+else if (soso2==4) 
 {
     document.getElementById("conso2").innerHTML = ('2222')
 }
-if (soso2==5) 
+else if (soso2==5) 
 {
     document.getElementById("conso2").innerHTML = ('22222')
 }
-if (soso2==6) 
+else if (soso2==6) 
 {
     document.getElementById("conso2").innerHTML = ('222222')
 }
-if (soso2==7) 
+else if (soso2==7) 
 {
     document.getElementById("conso2").innerHTML = ('2222222')
 }
+else document.getElementById("conso2").innerHTML = (' ')
 let soso3 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -113,26 +115,58 @@ if (soso3==1)
 {
     document.getElementById("conso3").innerHTML = ('3')
 }
-if (soso3==2) 
+else if (soso3==2) 
 {
     document.getElementById("conso3").innerHTML = ('33')
 }
-if (soso3==3) 
+else if (soso3==3) 
 {
     document.getElementById("conso3").innerHTML = ('333')
 }
-if (soso3==4) 
+else if (soso3==4) 
 {
     document.getElementById("conso3").innerHTML = ('3333')
 }
-if (soso3==5) 
+else if (soso3==5) 
 {
     document.getElementById("conso3").innerHTML = ('33333')
 }
-if (soso3==6) 
+else if (soso3==6) 
 {
     document.getElementById("conso3").innerHTML = ('333333')
 }
+else document.getElementById("conso3").innerHTML = (' ')
+let soso4 = 0;
+for(let i = 0; i < consotrongngaysinh.length; ++i)
+{
+    if(consotrongngaysinh[i] == 4)
+        soso4++;
+}
+if (soso4==1) 
+{
+    document.getElementById("conso4").innerHTML = ('4')
+}
+else if (soso4==2) 
+{
+    document.getElementById("conso4").innerHTML = ('44')
+}
+else if (soso4==4) 
+{
+    document.getElementById("conso4").innerHTML = ('444')
+}
+else if (soso4==4) 
+{
+    document.getElementById("conso4").innerHTML = ('4444')
+}
+else if (soso4==5) 
+{
+    document.getElementById("conso4").innerHTML = ('44444')
+}
+else if (soso4==6) 
+{
+    document.getElementById("conso4").innerHTML = ('444444')
+}
+else document.getElementById("conso4").innerHTML = (' ')
 let soso5 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -143,26 +177,27 @@ if (soso5==1)
 {
     document.getElementById("conso5").innerHTML = ('5')
 }
-if (soso5==2) 
+else if (soso5==2) 
 {
     document.getElementById("conso5").innerHTML = ('55')
 }
-if (soso5==3) 
+else if (soso5==5) 
 {
     document.getElementById("conso5").innerHTML = ('555')
 }
-if (soso5==4) 
+else if (soso5==5) 
 {
     document.getElementById("conso5").innerHTML = ('5555')
 }
-if (soso5==5) 
+else if (soso5==5) 
 {
     document.getElementById("conso5").innerHTML = ('55555')
 }
-if (soso5==6) 
+else if (soso5==6) 
 {
     document.getElementById("conso5").innerHTML = ('555555')
 }
+else document.getElementById("conso5").innerHTML = (' ')
 let soso6 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -173,26 +208,27 @@ if (soso6==1)
 {
     document.getElementById("conso6").innerHTML = ('6')
 }
-if (soso6==2) 
+else if (soso6==2) 
 {
     document.getElementById("conso6").innerHTML = ('66')
 }
-if (soso6==3) 
+else if (soso6==6) 
 {
     document.getElementById("conso6").innerHTML = ('666')
 }
-if (soso6==4) 
+else if (soso6==6) 
 {
     document.getElementById("conso6").innerHTML = ('6666')
 }
-if (soso6==5) 
+else if (soso6==6) 
 {
     document.getElementById("conso6").innerHTML = ('66666')
 }
-if (soso6==6) 
+else if (soso6==6) 
 {
     document.getElementById("conso6").innerHTML = ('666666')
 }
+else document.getElementById("conso6").innerHTML = (' ')
 let soso7 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -203,26 +239,27 @@ if (soso7==1)
 {
     document.getElementById("conso7").innerHTML = ('7')
 }
-if (soso7==2) 
+else if (soso7==2) 
 {
     document.getElementById("conso7").innerHTML = ('77')
 }
-if (soso7==3) 
+else if (soso7==7) 
 {
     document.getElementById("conso7").innerHTML = ('777')
 }
-if (soso7==4) 
+else if (soso7==7) 
 {
     document.getElementById("conso7").innerHTML = ('7777')
 }
-if (soso7==5) 
+else if (soso7==7) 
 {
     document.getElementById("conso7").innerHTML = ('77777')
 }
-if (soso7==6) 
+else if (soso7==7) 
 {
     document.getElementById("conso7").innerHTML = ('777777')
 }
+else document.getElementById("conso7").innerHTML = (' ')
 let soso8 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -233,26 +270,27 @@ if (soso8==1)
 {
     document.getElementById("conso8").innerHTML = ('8')
 }
-if (soso8==2) 
+else if (soso8==2) 
 {
     document.getElementById("conso8").innerHTML = ('88')
 }
-if (soso8==3) 
+else if (soso8==8) 
 {
     document.getElementById("conso8").innerHTML = ('888')
 }
-if (soso8==4) 
+else if (soso8==8) 
 {
     document.getElementById("conso8").innerHTML = ('8888')
 }
-if (soso8==5) 
+else if (soso8==8) 
 {
     document.getElementById("conso8").innerHTML = ('88888')
 }
-if (soso8==6) 
+else if (soso8==8) 
 {
     document.getElementById("conso8").innerHTML = ('888888')
 }
+else document.getElementById("conso8").innerHTML = (' ')
 let soso9 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
 {
@@ -263,26 +301,27 @@ if (soso9==1)
 {
     document.getElementById("conso9").innerHTML = ('9')
 }
-if (soso9==2) 
+else if (soso9==2) 
 {
     document.getElementById("conso9").innerHTML = ('99')
 }
-if (soso9==3) 
+else if (soso9==9) 
 {
     document.getElementById("conso9").innerHTML = ('999')
 }
-if (soso9==4) 
+else if (soso9==9) 
 {
     document.getElementById("conso9").innerHTML = ('9999')
 }
-if (soso9==5) 
+else if (soso9==9) 
 {
     document.getElementById("conso9").innerHTML = ('99999')
 }
-if (soso9==6) 
+else if (soso9==9) 
 {
     document.getElementById("conso9").innerHTML = ('999999')
 }
+else document.getElementById("conso9").innerHTML = (' ')
 let mangso1 = [];
 for (let i = 0; i < ten.length; i++) {
     let chucai1 = ten[i];
@@ -322,8 +361,8 @@ let mangso6 = [];
 for (let i = 0; i < ten.length; i++) {
     let chucai6 = ten[i];
     chucai6 = chucai6.toLowerCase()
-    if ((chucai6 == "f")||(chucai6 == "o")||(chucai6 == "x")){mangso6.push("5")
-    document.getElementById("ten5").innerHTML = (mangso6)}  
+    if ((chucai6 == "f")||(chucai6 == "o")||(chucai6 == "x")){mangso6.push("6")
+    document.getElementById("ten6").innerHTML = (mangso6)}  
 }
 let mangso7 = [];
 for (let i = 0; i < ten.length; i++) {
