@@ -1,8 +1,7 @@
 function tinhtoan() 
 {
-    let ten = document.getElementById("ten").value;
-    console.log(ten)
-    document.getElementById("bieudo") = ten
+    let tencodau = document.getElementById("ten").value;
+    let ten = removeVietnameseTones(tencodau) 
     let birthday = document.getElementById("birthday").value;
     let y1 = Number(document.getElementById("birthday").value[0]);
     let y2 = Number(document.getElementById("birthday").value[1]);
@@ -16,7 +15,53 @@ function tinhtoan()
     if ((tong<=11) || (tong==22))  
     {
         let cscd = tong;
-        document.getElementById("consochudao").innerHTML = ('Con số chủ đạo của bạn là: ' + cscd);
+        document.getElementById("text").innerHTML = ('Con số chủ đạo của bạn là:');
+        document.getElementById("consochudao").innerHTML = (cscd);
+        let cscdlink = cscd
+        if (cscdlink == 8) 
+        {
+            document.getElementById("consochudao").innerHTML = ("8").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-8.html");  
+        }
+        else if(cscdlink==2)
+        {
+            document.getElementById("consochudao").innerHTML = ("2").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-2.html")
+        }
+        else if(cscdlink==3)
+        {
+            document.getElementById("consochudao").innerHTML = ("3").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-3.html")
+        }
+        else if(cscdlink==4)
+        {
+            document.getElementById("consochudao").innerHTML = ("4").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-4.html")
+        }
+        else if(cscdlink==5)
+        {
+            document.getElementById("consochudao").innerHTML = ("5").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-5.html")
+        }
+        else if(cscdlink==6)
+        {
+            document.getElementById("consochudao").innerHTML = ("6").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-6.html")
+        }
+        else if(cscdlink==7)
+        {
+            document.getElementById("consochudao").innerHTML = ("7").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-7.html")
+        }
+        else if(cscdlink==9)
+        {
+            document.getElementById("consochudao").innerHTML = ("9").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-9.html")
+        }
+        else if(cscdlink==10)
+        {
+            document.getElementById("consochudao").innerHTML = ("10").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-10.html")
+        }
+        else if(cscdlink==11)
+        {
+            document.getElementById("consochudao").innerHTML = ("11").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-11.html")
+        }
+        else if(cscdlink==22)
+        {
+            document.getElementById("consochudao").innerHTML = ("22/4").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-224.html")
+        }
     }
     else 
     {
@@ -28,10 +73,102 @@ function tinhtoan()
             let t1 = cscd%10;
             let t2 = (cscd - (cscd%10))/10;
             cscd = t1 + t2;
-            document.getElementById("consochudao").innerHTML = ('Con số chủ đạo của bạn là: ' + cscd);
+            document.getElementById("text").innerHTML = ('Con số chủ đạo của bạn là:');
+            document.getElementById("consochudao").innerHTML = (cscd);
+            let cscdlink = cscd
+        if (cscdlink == 8) 
+        {
+            document.getElementById("consochudao").innerHTML = ("8").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-8.html");  
         }
-        document.getElementById("consochudao").innerHTML = ('Con số chủ đạo của bạn là: ' + cscd);
-    };
+        else if(cscdlink==2)
+        {
+            document.getElementById("consochudao").innerHTML = ("2").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-2.html")
+        }
+        else if(cscdlink==3)
+        {
+            document.getElementById("consochudao").innerHTML = ("3").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-3.html")
+        }
+        else if(cscdlink==4)
+        {
+            document.getElementById("consochudao").innerHTML = ("4").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-4.html")
+        }
+        else if(cscdlink==5)
+        {
+            document.getElementById("consochudao").innerHTML = ("5").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-5.html")
+        }
+        else if(cscdlink==6)
+        {
+            document.getElementById("consochudao").innerHTML = ("6").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-6.html")
+        }
+        else if(cscdlink==7)
+        {
+            document.getElementById("consochudao").innerHTML = ("7").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-7.html")
+        }
+        else if(cscdlink==9)
+        {
+            document.getElementById("consochudao").innerHTML = ("9").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-9.html")
+        }
+        else if(cscdlink==10)
+        {
+            document.getElementById("consochudao").innerHTML = ("10").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-10.html")
+        }
+        else if(cscdlink==11)
+        {
+            document.getElementById("consochudao").innerHTML = ("11").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-11.html")
+        }
+        else if(cscdlink==22)
+        {
+            document.getElementById("consochudao").innerHTML = ("22/4").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-224.html")
+        }
+        }
+        document.getElementById("text").innerHTML = ('Con số chủ đạo của bạn là:');
+        document.getElementById("consochudao").innerHTML = (cscd)
+        let cscdlink = cscd
+        if (cscdlink == 8) 
+        {
+            document.getElementById("consochudao").innerHTML = ("8").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-8.html");  
+        }
+        else if(cscdlink==2)
+        {
+            document.getElementById("consochudao").innerHTML = ("2").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-2.html")
+        }
+        else if(cscdlink==3)
+        {
+            document.getElementById("consochudao").innerHTML = ("3").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-3.html")
+        }
+        else if(cscdlink==4)
+        {
+            document.getElementById("consochudao").innerHTML = ("4").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-4.html")
+        }
+        else if(cscdlink==5)
+        {
+            document.getElementById("consochudao").innerHTML = ("5").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-5.html")
+        }
+        else if(cscdlink==6)
+        {
+            document.getElementById("consochudao").innerHTML = ("6").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-6.html")
+        }
+        else if(cscdlink==7)
+        {
+            document.getElementById("consochudao").innerHTML = ("7").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-7.html")
+        }
+        else if(cscdlink==9)
+        {
+            document.getElementById("consochudao").innerHTML = ("9").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-9.html")
+        }
+        else if(cscdlink==10)
+        {
+            document.getElementById("consochudao").innerHTML = ("10").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-10.html")
+        }
+        else if(cscdlink==11)
+        {
+            document.getElementById("consochudao").innerHTML = ("11").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-11.html")
+        }
+        else if(cscdlink==22)
+        {
+            document.getElementById("consochudao").innerHTML = ("22/4").link ("https://thansohoc-haikebu.blogspot.com/2021/01/con-so-chu-ao-so-224.html")
+        }
+    }
     let consotrongngaysinh =[y1,y2,y3,y4,m1,m2,d1,d2];
         let soso1 = 0;
 for(let i = 0; i < consotrongngaysinh.length; ++i)
@@ -462,6 +599,7 @@ for (let i = 0; i < ten.length; i++) {
     if ((chucai9 == "i")||(chucai9 == "r")){mangso9.push("9")
     document.getElementById("ten9").innerHTML = (mangso9)}  
 }
+document.getElementById("bieudo").innerHTML = (tencodau)
 }
 function reset(){
     document.getElementById("ten1").innerHTML = (" ")
@@ -473,4 +611,74 @@ function reset(){
     document.getElementById("ten7").innerHTML = (" ")
     document.getElementById("ten8").innerHTML = (" ")
     document.getElementById("ten9").innerHTML = (" ")
+    document.getElementById("ten11").innerHTML = (" ")
+    document.getElementById("ten22").innerHTML = (" ")
+    document.getElementById("ten33").innerHTML = (" ")
+    document.getElementById("ten44").innerHTML = (" ")
+    document.getElementById("ten55").innerHTML = (" ")
+    document.getElementById("ten66").innerHTML = (" ")
+    document.getElementById("ten77").innerHTML = (" ")
+    document.getElementById("ten88").innerHTML = (" ")
+    document.getElementById("ten99").innerHTML = (" ")
+    document.getElementById("conso1").innerHTML = (" ")
+    document.getElementById("conso2").innerHTML = (" ")
+    document.getElementById("conso3").innerHTML = (" ")
+    document.getElementById("conso4").innerHTML = (" ")
+    document.getElementById("conso5").innerHTML = (" ")
+    document.getElementById("conso6").innerHTML = (" ")
+    document.getElementById("conso7").innerHTML = (" ")
+    document.getElementById("conso8").innerHTML = (" ")
+    document.getElementById("conso9").innerHTML = (" ")
+    document.getElementById("conso11").innerHTML = (" ")
+    document.getElementById("conso22").innerHTML = (" ")
+    document.getElementById("conso33").innerHTML = (" ")
+    document.getElementById("conso44").innerHTML = (" ")
+    document.getElementById("conso55").innerHTML = (" ")
+    document.getElementById("conso66").innerHTML = (" ")
+    document.getElementById("conso77").innerHTML = (" ")
+    document.getElementById("conso88").innerHTML = (" ")
+    document.getElementById("conso99").innerHTML = (" ")
+    document.getElementById("consochudao").innerHTML = (" ")
+    document.getElementById("text").innerHTML = (" ")
+    document.getElementById("bieudo").innerHTML = (" ")
+}
+function datten(){
+    let birthday = document.getElementById("birthday").value;
+    let y1 = Number(document.getElementById("birthday").value[0]);
+    let y2 = Number(document.getElementById("birthday").value[1]);
+    let y3 = Number(document.getElementById("birthday").value[2]);
+    let y4 = Number(document.getElementById("birthday").value[3]);
+    let m1 = Number(document.getElementById("birthday").value[5]);
+    let m2 = Number(document.getElementById("birthday").value[6]);
+    let d1 = Number(document.getElementById("birthday").value[8]);
+    let d2 = Number(document.getElementById("birthday").value[9]);
+    console.log(birthday)
+}
+function removeVietnameseTones(str) {
+    str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g,"a"); 
+    str = str.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g,"e"); 
+    str = str.replace(/ì|í|ị|ỉ|ĩ/g,"i"); 
+    str = str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g,"o"); 
+    str = str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g,"u"); 
+    str = str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g,"y"); 
+    str = str.replace(/đ/g,"d");
+    str = str.replace(/À|Á|Ạ|Ả|Ã|Â|Ầ|Ấ|Ậ|Ẩ|Ẫ|Ă|Ằ|Ắ|Ặ|Ẳ|Ẵ/g, "A");
+    str = str.replace(/È|É|Ẹ|Ẻ|Ẽ|Ê|Ề|Ế|Ệ|Ể|Ễ/g, "E");
+    str = str.replace(/Ì|Í|Ị|Ỉ|Ĩ/g, "I");
+    str = str.replace(/Ò|Ó|Ọ|Ỏ|Õ|Ô|Ồ|Ố|Ộ|Ổ|Ỗ|Ơ|Ờ|Ớ|Ợ|Ở|Ỡ/g, "O");
+    str = str.replace(/Ù|Ú|Ụ|Ủ|Ũ|Ư|Ừ|Ứ|Ự|Ử|Ữ/g, "U");
+    str = str.replace(/Ỳ|Ý|Ỵ|Ỷ|Ỹ/g, "Y");
+    str = str.replace(/Đ/g, "D");
+    // Some system encode vietnamese combining accent as individual utf-8 characters
+    // Một vài bộ encode coi các dấu mũ, dấu chữ như một kí tự riêng biệt nên thêm hai dòng này
+    str = str.replace(/\u0300|\u0301|\u0303|\u0309|\u0323/g, ""); // ̀ ́ ̃ ̉ ̣  huyền, sắc, ngã, hỏi, nặng
+    str = str.replace(/\u02C6|\u0306|\u031B/g, ""); // ˆ ̆ ̛  Â, Ê, Ă, Ơ, Ư
+    // Remove extra spaces
+    // Bỏ các khoảng trắng liền nhau
+    str = str.replace(/ + /g," ");
+    str = str.trim();
+    // Remove punctuations
+    // Bỏ dấu câu, kí tự đặc biệt
+    str = str.replace(/!|@|%|\^|\*|\(|\)|\+|\=|\<|\>|\?|\/|,|\.|\:|\;|\'|\"|\&|\#|\[|\]|~|\$|_|`|-|{|}|\||\\/g," ");
+    return str;
 }
